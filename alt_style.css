@@ -1,0 +1,116 @@
+body,
+html {
+    height: 100%;
+}
+
+/* The food card section */
+.foodcard {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), ;
+    background-image: url(Images/taylor-kiser-1su-ueyLoe0-unsplash.jpg);
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.food-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background-color: white;
+    background-blend-mode: screen;
+}
+
+h4 .Price_class_strike {
+    text-decoration: line-through;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+li .active {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), ;
+    background-image: url(Images/gaelle-marcel-d1QaLyz97H0-unsplash.jpg);
+
+
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: right;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Quattrocento', serif;
+}
+
+.fooddesc {
+    font-family: 'Fanwood Text', serif;
+    color: black;
+}
+
+.Vegan_icon {
+    width: 10%;
+}
+
+.Vegan_icon_Area {
+    padding: 10px;
+}
